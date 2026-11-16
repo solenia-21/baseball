@@ -4,8 +4,14 @@ title: "Baseball"
 
 ## Welcome
 
+This site explores the history of Major League Baseball through the
+Lahman database, a record of every team and player season since 1871.
 
-This site explores the history of Major League Baseball through its
-data. Using the Lahman database --- a complete record of every team and
-player season since 1871 --- we look at how the game has changed,
-starting with its signature event: the home run.
+The **Home runs** page starts with a puzzle: total home runs seem to
+collapse in 1981, 1994, and 2020. The collapse is an illusion of
+shortened seasons --- measured per game, those years are ordinary, and
+the rate instead reveals baseball's real eras, from the dead-ball era to
+the 2019 "juiced ball." The **Sluggers** page ranks the career home run
+leaders and finds most of them clustered in the steroid era, the same
+years the per-game rate peaked. Both analysis pages are linked in the
+navbar.
