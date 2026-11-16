@@ -1,0 +1,39 @@
+ ---
+title: "Home runs"
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(Lahman)
+```
+
+```{r}
+#| cache: true
+hr_by_season <- Teams |>
+  group_by(yearID) |>
+  summarise(HR = sum(HR, na.rm = TRUE),
+            team_games = sum(G),
+            .groups = "drop") |>
+  mutate(hr_per_game = HR / team_games,
+         shortened = yearID %in% c(1918, 1919, 1981, 1994, 1995, 2020))
+```
+
+```{r}
+hr_by_season |>
+  ggplot(aes(x = yearID, y = hr_per_game)) +
+  geom_line(color = "grey70") +
+  geom_point(aes(color = shortened), size = 1.1) +
+  scale_color_manual(
+    values = c(`FALSE` = "navy", `TRUE` = "red"),
+    labels = c("Full season", "Shortened season"),
+    name = NULL
+  ) +
+  labs(
+    title = "Home runs per game reveal baseball's real eras",
+    subtitle = "MLB home runs per team per game, 1871-2025",
+    x = "Season",
+    y = "Home runs per game",
+    caption = "Source: Lahman Teams table"
+  )
+```

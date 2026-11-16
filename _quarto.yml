@@ -7,6 +7,8 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: home-runs.qmd
+        text: Home runs
 
 format:
   html:
@@ -14,6 +16,10 @@ format:
       - cosmo
       - brand
     toc: true
+
+execute:
+  echo: false
+
 
 
 
