@@ -4,6 +4,13 @@
     "href": "index.html",
     "title": "Baseball",
     "section": "",
-    "text": "This site uses the Lahman database to explore Major League Baseball history through its data. Comparing home runs per team-game puts seasons of different lengths on a fairer footing: the sharp dips in shortened seasons look much less dramatic once games played are taken into account.\nThe career-leaders analysis highlights the players with the most home runs, shows which careers overlapped the steroid era, and takes a closer look at Barry Bonds season by season. Visit the analysis pages using the links in the navbar."
+    "text": "This site explores the history of Major League Baseball through the Lahman database, a record of every team and player season since 1871.\nThe Home runs page starts with a puzzle: total home runs seem to collapse in 1981, 1994, and 2020. The collapse is an illusion of shortened seasons — measured per game, those years are ordinary, and the rate instead reveals baseball’s real eras, from the dead-ball era to the 2019 “juiced ball.” The Sluggers page ranks the career home run leaders and finds most of them clustered in the steroid era, the same years the per-game rate peaked. Both analysis pages are linked in the navbar."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Baseball",
+    "section": "",
+    "text": "This site explores the history of Major League Baseball through the Lahman database, a record of every team and player season since 1871.\nThe Home runs page starts with a puzzle: total home runs seem to collapse in 1981, 1994, and 2020. The collapse is an illusion of shortened seasons — measured per game, those years are ordinary, and the rate instead reveals baseball’s real eras, from the dead-ball era to the 2019 “juiced ball.” The Sluggers page ranks the career home run leaders and finds most of them clustered in the steroid era, the same years the per-game rate peaked. Both analysis pages are linked in the navbar."
   }
 ]
