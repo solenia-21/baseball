@@ -9,6 +9,8 @@ website:
         text: Home
       - href: home-runs.qmd
         text: Home runs
+      - href: sluggers.qmd
+        text: Sluggers
 
 format:
   html:
